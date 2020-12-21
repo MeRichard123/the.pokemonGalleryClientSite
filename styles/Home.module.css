@@ -1,6 +1,5 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,7 +121,7 @@
 }
 
 .banner {
-  width: 100vw;
+  width: 100%;
 }
 .banner img {
   width: 100%;

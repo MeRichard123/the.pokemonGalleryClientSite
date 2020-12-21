@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Gallery from "../components/Gallery";
 
 const Home: React.FC = () => {
   return (
@@ -12,7 +13,9 @@ const Home: React.FC = () => {
         <img src="/bannerthin.png" alt="" />
       </div>
 
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <Gallery />
+      </main>
 
       <footer className={styles.footer}>
         <a

@@ -1,0 +1,32 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.galleryInstance {
+  height: 25vmax;
+  margin: 5px;
+}
+.ButtonStyles {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: 0;
+}
+.imageModal {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.modalContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
