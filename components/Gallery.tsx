@@ -3,7 +3,12 @@ import styles from "../styles/Gallery.module.css";
 import Modal from "react-modal";
 import { MdClose } from "react-icons/md";
 
-const imageMap = [
+interface ImageTypes {
+  url: string;
+  desc: string;
+}
+
+const imageMap: Array<ImageTypes> = [
   {
     url: "karcoal.jpg",
     desc:
@@ -24,7 +29,7 @@ const Gallery: React.FC = () => {
   const [currentDesc, setCurrentDesc] = React.useState<string>("");
   return (
     <div className={styles.gallery}>
-      {imageMap.map((image, index) => (
+      {imageMap.map((image: ImageTypes, index: number) => (
         <div key={index}>
           <img
             className={styles.galleryInstance}
