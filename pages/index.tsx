@@ -7,7 +7,6 @@ const Home: React.FC = () => {
     <div className={styles.container}>
       <Head>
         <title>@the.pokemonGallery</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.banner}>
         <img src="/bannerthin.png" alt="" />
