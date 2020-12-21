@@ -4,11 +4,18 @@ import Modal from "react-modal";
 import { MdClose } from "react-icons/md";
 
 const imageMap = [
-  { url: "karcoal.jpg", desc: "" },
-  { url: "motostoke.jpg", desc: "" },
-  { url: "raboot.jpg", desc: "" },
-  { url: "room.jpg", desc: "" },
-  { url: "start.jpg", desc: "" },
+  {
+    url: "karcoal.jpg",
+    desc:
+      "Managed to evolve a Rolycoly, and now let's speed up the Scorbunny hunt",
+  },
+  { url: "motostoke.jpg", desc: "First time in a big city" },
+  {
+    url: "raboot.jpg",
+    desc: "My Lovely Scorbunny is evolving! Say Hello to Raboot",
+  },
+  { url: "start.jpg", desc: "Let's start this adventure" },
+  { url: "room.jpg", desc: "About to pack" },
 ];
 
 const Gallery: React.FC = () => {
